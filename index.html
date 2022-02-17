@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>tamaCATchi</title>
+</head>
+<body>
+
+    <header><h1>tamaCATchi</h1></header>
+
+    <main>
+        <div id="actionsDiv">
+            <div id="catStats">
+                <p id="happiness"></p>
+                <p id="hungry"></p>
+                <p id="tired"></p>
+            </div>
+
+            <img id="catImg" alt="">
+
+            <h2 id="catAction"></h2>
+        </div>
+        <div id="rightDiv">
+
+            <p id="cat"></p>
+
+            <div id="userInput">
+                <button class="userAction" id="sleep">Schlafen legen</button>
+                <button class="userAction" id="feed">Füttern</button>
+                <button class="userAction" id="pet">Streicheln</button>
+                <button class="userAction" id="play">Spielen</button>
+            </div>
+        </div>
+    </main>
+
+    <div id="modal">
+        <div id="modalContent">
+            <div id="chooseCat">
+                <img class="catType" src="Katzen/Bengal/profil.jpg" title="Bengal" id="bengal" alt="">
+                <img class="catType" src="Katzen/BritischKurzhaar/profil.jpeg" title="Britisch Kurzhaar" id="britanian" alt="">
+                <img class="catType" src="Katzen/Perser/profil.jpg" title="Perser" id="perser" alt="">
+                <img class="catType" src="Katzen/Siam/profil.jpg" title="Siamkatze" id="siam" alt="">
+                <img class="catType" src="Katzen/Sphynx/profil.jpg" title="Sphynx" id="sphynx" alt="">
+            </div>
+
+            <div id="chooseName">
+                <input type="text" name="" placeholder="Name eingeben" maxlength="20" id="catName">
+                <input type="submit" value="Benennen" id="nameBtn">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
